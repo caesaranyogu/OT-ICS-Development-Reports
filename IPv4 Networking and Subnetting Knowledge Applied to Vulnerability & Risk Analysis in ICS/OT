@@ -1,0 +1,108 @@
+IPv4 Networking and Subnetting Knowledge Applied to Vulnerability & Risk Analysis in ICS/OT
+
+
+What Did I Learn
+
+From this thread, I focused on IP addressing, subnetting, CIDR, ARP, MAC tables, NAT, and troubleshooting network connectivity, including:
+
+IP Address Types: Unicast, multicast, broadcast, and private IPs; understanding which are reserved for documentation.
+
+Subnetting and ANDing: How subnet masks divide networks into subnets, how to calculate network IDs, usable host counts, and how ANDing works to determine the network portion.
+
+CIDR and Supernetting: Summarizing multiple /24 networks into a single /22 network to simplify routing and reduce routing table complexity.
+
+ARP and MAC Tables: Differentiating between ARP caches (IP → MAC) and switch MAC address tables (port → MAC) and understanding their roles in network mapping.
+
+Troubleshooting Tools: Using ping and traceroute to determine connectivity issues, including interpreting ICMP filtering versus actual network outages.
+
+NAT: Understanding how private IP addresses are translated to public IPs for Internet access.
+
+Subnet Mask Calculations: Determining correct masks for a required number of hosts and learning default masks versus variable-length subnet masks.
+
+
+Challenges Faced
+
+Understanding binary ANDing and how it reveals the network ID.
+
+Distinguishing private IP ranges and overlapping Class B/C ranges.
+
+Remembering documentation IP addresses (RFC 5737).
+
+Interpreting ping failures vs. traceroute success, understanding the role of firewalls or ICMP filtering.
+
+Converting between prefix notation (/22, /26) and dotted decimal subnet masks.
+
+Differentiating ARP caches from MAC address tables and understanding their different roles in Layer 2 vs. Layer 3.
+
+
+How I Solved Them
+
+For each challenge, I used the following prompts in this thread to guide my understanding:
+
+Understanding ARP vs MAC Tables:
+
+Prompt: “What is the difference between an ARP cache and a switch's MAC address table?”
+
+Subnet Mask and Host Calculations:
+
+Prompt: “A network administrator wants to use a subnet mask containing 62 usable addresses. Which subnet mask should they use?”
+
+Prompt: “When subnetting the network address 172.30.0.0/16 to support 12 subnets, what is the new subnet mask in dotted decimal format?”
+
+CIDR and Supernetting:
+
+Prompt: “Explain classless addressing and how supernetting works to summarize four /24 networks as one /22 network.”
+
+Ping and Traceroute Troubleshooting:
+
+Prompt: “A user is experiencing problems while trying to reach a remote web server… traceroute shows packets reach the IP just before 203.0.113.10. What is the most likely cause?”
+
+Private and Documentation IP Ranges:
+
+Prompt: “192.0.2.0/24, 198.51.100.0/24, 203.0.113.0/24 — set aside for documentation and examples. How am I supposed to remember this and why?”
+
+NAT Understanding:
+
+Prompt: “Which process allows hosts using private IP addresses to access the Internet?”
+
+
+How This Helps in a Vulnerability & Risk Analyst Role in ICS/OT
+
+Subnetting and Network Mapping:
+
+Knowing how subnet masks, ANDing, and CIDR work allows an analyst to map industrial networks accurately, understand segmentation between zones (e.g., SCADA vs. corporate network), and determine how a compromised device could move laterally.
+
+ARP and MAC Table Analysis:
+
+Understanding ARP caches and switch MAC tables helps identify rogue devices or unexpected communications in ICS networks — critical for detecting insider threats or misconfigurations.
+
+Troubleshooting ICMP & Routing:
+
+Interpreting ping and traceroute results equips an analyst to differentiate between security controls (firewalls, ICMP blocking) and actual outages, which is crucial in high-availability OT systems like airports or water plants.
+
+Private IP and NAT Knowledge:
+
+Recognizing private addressing schemes and NAT usage ensures that analysts understand which devices are Internet-facing versus isolated, helping in exposure assessments.
+
+Documentation IPs and Lab Simulations:
+
+Knowing which IP ranges are safe for testing allows analysts to simulate ICS networks without risking production systems — useful for vulnerability testing, risk modeling, and tabletop exercises.
+
+
+Next Steps
+
+IPv6 for ICS/OT:
+
+Learn how IPv6 addressing works in industrial networks and how it affects asset mapping, routing, and vulnerability assessment.
+
+IP Troubleshooting for Risk Assessment:
+
+Practice troubleshooting connectivity and segmentation issues in ICS/OT lab environments, applying lessons from ping, traceroute, and ARP/MAC table analysis to identify misconfigurations or potential attack vectors.
+
+Network Segmentation Analysis:
+
+Apply subnetting and CIDR knowledge to analyze OT network segmentation, identifying weak points where attackers could move between control zones or from IT to OT.
+
+Simulation and Documentation Practice:
+
+Use RFC 5737 addresses to build lab simulations of ICS networks, testing monitoring, firewall rules, and NAT configurations without risking live infrastructure.
