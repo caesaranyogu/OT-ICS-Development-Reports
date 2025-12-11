@@ -3,6 +3,12 @@ OT/ICS Introduction Course: Section 3
 
 Frameworks:
 - standards for how to secure facilities
-- ISA 62443 - Gold Standard for OT/ICS cybersecurity
+- ISA 62443 - Gold Standard for OT/ICS cybersecurity (Cost money)
+  -a little hard to read
 - ISA (American) IEC (International)
+- OT cybersecurity NIST SP 800-82r3 (Free)
+  -simpler writing
+- Environments decide on what their level of security should be
+  -are we protecting against error to are we protecting against state actors
 
+How we protect OT:
