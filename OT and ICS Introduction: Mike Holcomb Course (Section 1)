@@ -1,0 +1,53 @@
+Mike Holcomb
+OT/ICS Introduction Course: Section 1
+
+Goals:
+System stays running optimally
+Plant safety
+Worker safety
+Nearby civilian safety
+Environmental safety
+
+Why OT Security is important:
+
+Attacks are doubling every year
+- keeping people in jobs and businesses open is important to lots of families and livelihoods
+- these people rely on us to do our jobs
+
+Commodity OS and software are becoming more popular
+- Windows everywhere
+
+IT and OT are crossing over more
+- cloud in OT
+- AI being introduced to OT more and more
+- have to nail fundamentals/basics before taking on the cloud and AI
+- not enough training data for AI to do industrial 
+- lots of environments where IT and OT dont work together
+- ie active directory needed by OT from IT
+
+We are not prepared for attacks:
+- lots of environments (everywhere)
+- farms, hospitals, refineries, power plants, water/wastewater, food and agriculture, manufacturing facilities, trains, planes and automobiles
+- ICS is power, water, manufacturing, transportation
+- not prepared for types of attacks
+- ie 3 years to make a turbine. plant could be down for years
+
+Certs for OT:
+ISA 62443
+SANS (GICSP,GRID,GCIP)
+CompTIA OTSEC (July 2026)
+
+Free Courses:
+cisa.gov/ics-training-available-through-cisa
+- 100,200 online
+- 300 online or in person
+mikeholcomb.com
+
+Other resources:
+- annual reports (Dragos, Verizon data breach investigation report)
+
+
+Famous attacks:
+- Maroochy shire (disgruntled employee releases sewage)
+- Davis-Besse (Worm in nucleur plant)
+- in 2021 attacks got significantly more frequent
