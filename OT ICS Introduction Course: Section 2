@@ -1,0 +1,54 @@
+Mike Holcomb
+OT/ICS Introduction Course: Section 2
+
+OT/ICS Cybersecurity Overview
+
+IT vs. OT
+- IT in office
+- OT in industrial environment
+- likelihood of being killed in OT is much higher
+- saftey in OT is top priority
+- IT does CIA (Confidentiality at the top)
+- OT does AIC (Availability at the top) 
+- could have confidentialtity in OT (ie nuclear trade secrets)
+- almost every OT is connected to IT
+- IT does not need to send to OT usually (segmenting is a good idea)
+  - makes direct attack vectors to OT
+- OT could need to send to IT
+
+IT
+- store and process vast amounts of data
+- laptops, workstations, servers
+
+OT
+- ICS how a LAN works
+- SCADA how a WAN works
+- uses transmission lines
+- cyber threat can be anything that comes in over a network connection or from cyber asset
+- number one concern is physical safety
+
+What is necessary communication between OT and IT
+- segmentation
+- firewall
+- backup and recovery
+
+Common ways attackers enter OT networks
+- IT
+- remote access
+  -made for critical environments
+  -lots of plants have issures with this
+- physical transitory cyber assets
+  -usb
+  -cell phones connected to ports for "charging"
+- control systems exposed to the internet
+  -phones can break the airgap
+- malicious insiders
+  -engineers that understand how environment works is dangerous
+
+Mike Asante- Godfather of OT Cybersecurity
+
+Every company will get compromised
+- will you be able to respond
+- will you be able to detect it
+
+Read Sandworm
