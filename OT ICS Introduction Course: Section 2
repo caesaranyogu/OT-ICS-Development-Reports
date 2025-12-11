@@ -23,7 +23,7 @@ IT
 OT
 - ICS how a LAN works
 - SCADA how a WAN works
-- uses transmission lines
+- uses MODBUS protocol
 - cyber threat can be anything that comes in over a network connection or from cyber asset
 - number one concern is physical safety
 
