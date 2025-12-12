@@ -69,3 +69,12 @@ Vulnerability Management Process
   7. Implement during maintenance windows
   8. Verify changes
   9. Continuous monitoring
+
+Threat Intel
+-actionable information which an organization can use
+-one of the best way to get buy-in from managment (talking about things that could happen in your environment)
+  -research on chatgpt what are the top 10 incidents that happen in water, or fintech, or power etc
+  -good to bring to clients and leadership
+-not cheap resources
+-ie CISA, ICS Advisory Project, SANS Internet Storm Center, Bleeping Computer, Security Wizardry Radar Page
+
