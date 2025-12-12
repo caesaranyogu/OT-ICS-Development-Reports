@@ -1,0 +1,71 @@
+Mike Holcomb
+OT/ICS Introduction Course: Section 4
+
+Threat and Vulnerability Management
+
+- few people know it well in the OT space
+- helps communicate during interviews
+
+Importance of asset register
+- basis for incident response
+- also basis of vulnerability management
+- we do not scan the OT environment
+
+Risk = threat x vulnerability x probability x impact
+
+Threat
+- bad actors 
+- accidental actions
+- disgruntled employees
+- extorted employees
+
+Probability
+- most OT environments most probabilistic threat is ransomware
+
+Very little monitoring in OT so its hard to know if its an attack or something else
+-this is mostly because most OT environments dont and will never have the budget for monitoring
+
+CDP is good but they are having trouble with people having hardware and personnel to run it so very few people can take advantage
+
+Communicating risk to business
+- business people are smart but they just dont have the technical knowledge (bridging this gap is an important skill)
+- they dont want to underspend but they also dont want to overspend
+- need to know things like "if you are down for an hour, how much is it going to cost?"
+  -some organizations really dont know
+  -be prepared to have these conversations
+  -IT has had these conversations forever, OT needs to get a lot better at these conversations
+
+Vulnerability Management Process
+ -IT
+    -scan: Nexus scan
+    -prioritize: what are the quick or critical vulnerabilities
+      -CVSS scores
+        -Critical, High, Medium, Low, Informational
+        -where is the asset in the environment (context matters)
+      -starting point
+      -important who is determining this score (junior analyst vs seasoned cyber lead who knows environment)
+        -dont want to adjust more than 1 though (hard to explain to an auditor)
+    -remediate: fix the issues
+    -verify: verify they are actually fixed
+    -scan for new vulnerability: how often you are scanning is important too
+      -do you want to wait a month before scanning?? A lot might can happen between then
+-OT
+  1. Asset inventory
+    -build asset registry
+  2. Assign criticality
+  3. Passive discovery of vulnerabilities
+    -Factory Acceptance Testing (FAT) scanning - scanning before equipment gets put into environment
+      -scanning firmware, default passwords, device hardening, patches, confirm security configurations, ensure equipment works under load
+    -Site Acceptance Testing (SAT) scanning - scanning after equipment arrives on site but BEFORE put into production
+      Nothing changed during shipping/installation
+      Network connectivity follows the security design
+      The system still passes security tests in the actual OT network
+      Vulnerabilities introduced by integration (firewalls, historian connections, remote access)
+      
+      Safety protections are in place
+  4. Validate with vendor
+  5. Prioritize based on process/safety impact
+  6. Apply patch OR compensating controls
+  7. Implement during maintenance windows
+  8. Verify changes
+  9. Continuous monitoring
