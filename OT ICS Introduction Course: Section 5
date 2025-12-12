@@ -1,0 +1,22 @@
+Mike Holcomb
+OT/ICS Introduction Course: Section 5
+
+OSINT for Industrial Controls
+whole course on this is on Mike's youtube
+
+What is OSINT? (Open Source Intelligence)
+-Intelligence gathered from publicly available data
+  -the more relevant the better
+-pnetesters use this often
+-types:
+  -humint (from humans spies)
+  -sigint (from signal intercepts)
+  -comint (communications intelligince)
+  -elint (electronic intelligence)
+
+How attackers get in OT network
+-from IT (remote access)
+-physical cyber assets
+-control systems exposed to the internet
+-Exploit database
+  -has known exploits for pentesters
