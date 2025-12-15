@@ -18,5 +18,42 @@ How attackers get in OT network
 -from IT (remote access)
 -physical cyber assets
 -control systems exposed to the internet
--Exploit database
+-Exploit database (online website)
   -has known exploits for pentesters
+
+Incidence Respomse:
+
+Phase 1: Preparation
+-policies guidelines and procedures
+-identifying and training team members
+-determine out of band communication
+-build our response toolkit
+-tabletop exercises
+  -make sure there are no single points of failures
+
+IR Team members
+-bring in people as you need them (controls chaos and narrative control)
+-IR Team lead
+-Plant Manager
+-ICS/OT Cybersecurity Manager
+-Control System Engineers
+-Process Engineers
+-Network Engineers
+-Cybersecurity Analysts
+-Incident Responders
+  -Mandios, Dragos
+    -comes with paperwork so be prepared before time
+-Legal
+-HR
+-Compliance
+-Outside Parties
+
+Phase 2: Identification
+-Use security tools for detection
+-monitor network traffic for clues
+-monitor endpoint activity for clues
+-detection of suspicious anomalies
+-determine an insident is occuring
+-collect and correlate data
+-leverage cyber threat intelligence
+  
